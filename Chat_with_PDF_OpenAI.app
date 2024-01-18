@@ -100,6 +100,6 @@ with gr.Blocks(css=css) as demo:
         bot, chatbot, chatbot
     )
     submit_btn.click(add_text, [chatbot, question], [chatbot, question]).then(
-        bot, chatbot, chatbot)
+        bot, chatbot, chatbot) 
 
 demo.launch()
