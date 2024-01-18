@@ -5,7 +5,7 @@ from langchain.llms import HuggingFaceHub
 from langchain.embeddings import HuggingFaceHubEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
-
+ 
 def loading_pdf(): return 'Loading...'
 
 def pdf_changes(pdf_doc, repo_id):
